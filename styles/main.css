@@ -51,14 +51,19 @@ nav {
     margin-right: 40px;
 }
 
+a:hover {
+    color: #00c3ff;
+}
+
 button:hover {
     cursor: pointer;
+    background-color: #173A56;
 }
 
 .btn-sign-in {
     width: 102px;
     height: 46px;
-    color: #173A56;
+    color: #00c3ff;
     background-color: #fff;
     font-size: 16px;
     font-weight:600;
@@ -131,10 +136,16 @@ h1 {
     margin-top: 30px;   
 }
 
+.play-box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}  
+
 .btn-get-started {
     margin-top: 53px;
     width: 175px;
-    height: 37px;
+    height: 39px;
     background-color: #FF9900;
     color: #ffffff;
     font-weight: 700;
@@ -144,26 +155,23 @@ h1 {
     padding: 0px;
     border-radius: 5px;
     border:none;
-
 }
 
 .fa-play {
-    display: inline;
+    display: flex;
+    justify-content: center;
     color:#FF9900;
     width: 14px;
     height: 17px;
-    margin-top: 11.5px;
-    margin-bottom: 11.5px;
-    margin-left: 30px;
+    margin-top: 45px;
+    margin-left: 20px;
+
 }
 
 
 .watch-video {
-    display: inline;
-    /* justify-content: center;
-    align-items: flex-start;
-    align-content:flex-start; 
-    Jag har inte lyckats få watch the video bredvid Get started knappen därför la jag display inline*/
+    display: flex;
+    justify-content:center;
     color: #FF9900;
     font-size: 16px;
     font-weight:600;
@@ -171,10 +179,10 @@ h1 {
     letter-spacing: 0px;
     width: 135px;
     height: 24px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 8.5px;
+    margin-top: 50px;
 }
+
+
 
 .header-img {
     width: 100%;
@@ -222,7 +230,7 @@ h1 {
 .card-one, .card-two, .card-three {
     width: 240px;
     height: 178px;
-    margin-top: 10xp;
+    margin-top: 10px;
     margin-right: 40px;
 }
 
@@ -551,9 +559,8 @@ footer {
     margin-top: 100px;
     
 }
-  
-  
-.input-box{
+
+.email {
     border: 1px solid #BCD0E5;
     border-left: none;
     border-radius: 1px;
@@ -562,8 +569,10 @@ footer {
     width: 100%;
     min-height: 48px;
     margin-top: 80px;
-    
+    margin-right: 20px;
 }
+
+
   
 .btn-end {
     max-width: 131px;
