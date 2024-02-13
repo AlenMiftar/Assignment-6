@@ -522,16 +522,21 @@ h1 {
 /* main end */
 
 /* footer start   */
+
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     max-width: 1109px;
     width: 100%;
     margin: 0 auto;
     border: none;
     border-top: 1px solid #c1d6ec;
     margin-top: 153px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+
 }
 
 .logo-end {
