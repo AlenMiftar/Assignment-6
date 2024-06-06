@@ -210,7 +210,7 @@ h1 {
 }
 
 .div-feature {
-  margin-left: 50px;
+  margin-left: 25px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -225,10 +225,7 @@ h1 {
   margin-top: 46px;
 }
 
-.card-one,
-.card-two,
-.card-three,
-.card-four {
+.card {
   width: 240px;
   height: 178px;
   margin: auto;
@@ -239,20 +236,11 @@ h1 {
   flex-wrap: wrap;
 }
 
-.click-icon {
-  width: 51px;
-  height: 50px;
-  margin-right: 30px;
-}
-
 .click-icon:hover {
   cursor: pointer;
 }
 
-.card-one-title,
-.card-two-title,
-.card-three-title,
-.card-four-title {
+.card-title {
   display: flex;
   color: #2f281e;
   font-size: 22px;
@@ -261,10 +249,7 @@ h1 {
   letter-spacing: 0px;
 }
 
-.card-one-text,
-.card-two-text,
-.card-three-text,
-.card-four-text {
+.card-text {
   display: flex;
   color: #544837;
   font-size: 16px;
@@ -273,7 +258,7 @@ h1 {
   letter-spacing: 0px;
 }
 
-.design-icon {
+.icon {
   width: 50px;
   height: 50px;
   margin-right: 30px;
@@ -281,12 +266,6 @@ h1 {
 
 .design-icon:hover {
   cursor: pointer;
-}
-
-.heart-icon {
-  width: 50px;
-  height: 50px;
-  margin-right: 30px;
 }
 
 .heart-icon:hover {
@@ -297,6 +276,7 @@ h1 {
   display: flex;
   width: 50px;
   height: 50px;
+  margin-bottom: -12px;
 }
 
 .time-icon:hover {
