@@ -4,6 +4,7 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  /* overflow-x: hidden; */
 }
 
 /* navigation start */
@@ -34,6 +35,12 @@ nav {
   display: flex;
   list-style-type: none;
   gap: 30px;
+}
+
+main {
+  max-width: 1400px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .product,
@@ -284,6 +291,7 @@ h1 {
 }
 
 .btn-now {
+  position: relative;
   color: #ffffff;
   background-color: #ff9900;
   font-size: 16px;
@@ -291,7 +299,8 @@ h1 {
   width: 175px;
   height: 53px;
   margin: auto;
-  margin-top: 34px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   border-radius: 5px;
   border: none;
 }
